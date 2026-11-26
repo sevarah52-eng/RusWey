@@ -1,3 +1,4 @@
+
 {
   "name": "rusway",
   "private": true,
@@ -5,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite",
-    "preview": "vite --host 0.0.0.0"
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
@@ -22,3 +23,4 @@
     "esbuild@0.25.12": true
   }
 }
+
